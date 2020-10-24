@@ -1,0 +1,23 @@
+{
+  "name": "electron-jham",
+  "version": "1.0.0",
+  "description": "electron desktop application for IT support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jham-Support/Electron-jham.git"
+  },
+  "author": "james weeks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jham-Support/Electron-jham/issues"
+  },
+  "homepage": "https://github.com/Jham-Support/Electron-jham#readme",
+  "devDependencies": {
+    "electron": "^10.1.5"
+  },
+  "private": true
+}
