@@ -22,7 +22,6 @@ export default {
     justify-content: space-between;
     -webkit-app-region: drag;
     background-color: #141414;
-    padding-right: 20vh;
 }
 
 .logo {

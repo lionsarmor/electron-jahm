@@ -29,7 +29,7 @@ html,
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    background-color: #141414;
+    background-color: #141414ce;
 }
 
 #app h1 {
@@ -37,6 +37,7 @@ html,
 }
   body {
     overflow: hidden;
+    background-color: #141414;
   }
 a {
     font-weight: bold;
