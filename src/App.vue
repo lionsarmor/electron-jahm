@@ -29,13 +29,15 @@ html,
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    background-color: #fff;
+    background-color: #141414;
 }
 
 #app h1 {
     font-family: "Staatliches", cursive;
 }
-
+  body {
+    overflow: hidden;
+  }
 a {
     font-weight: bold;
     color: #2c3e50;
@@ -49,4 +51,5 @@ a:hover {
 a.router-link-exact-active {
     color: #42b983;
 }
+
 </style>

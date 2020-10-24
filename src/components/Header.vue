@@ -4,19 +4,8 @@
         <div class="logo__container">
             <img src="../assets/logo.png" alt="News app logo" class="logo__image" />
         </div>
-        <h1>News App</h1>
+        <h1>JHAM</h1>
     </div>
-    <nav class="nav">
-        <h4 class="nav__link">
-            <router-link to="/home">Home</router-link>
-        </h4>
-        <h4 class="nav__link">
-            <router-link to="/top-news">Top News</router-link>
-        </h4>
-        <h4 class="nav__link">
-            <router-link to="/categories">News By Category</router-link>
-        </h4>
-    </nav>
 </header>
 </template>
 
@@ -31,6 +20,9 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    -webkit-app-region: drag;
+    background-color: #141414;
+    padding-right: 20vh;
 }
 
 .logo {
