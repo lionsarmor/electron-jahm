@@ -1,4 +1,4 @@
-# electron-jham
+# jham
 
 ## Project setup
 ```

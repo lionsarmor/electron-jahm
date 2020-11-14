@@ -1,56 +1,26 @@
 <template>
-<div id="app">
-    <app-header />
-    <router-view />
-</div>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import appHeader from "./components/Header.vue";
+import HelloWorld from './components/HelloWorld.vue'
+
 export default {
-    name: "layout",
-    components: {
-        appHeader,
-    },
-};
+  name: 'App',
+  components: {
+    HelloWorld
+  }
+}
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Abel&family=Staatliches&display=swap");
-
-html,
 #app {
-    min-height: 100vh;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
-
-#app {
-    font-family: "Abel", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    background-color: #141414ce;
-}
-
-#app h1 {
-    font-family: "Staatliches", cursive;
-}
-  body {
-    overflow: hidden;
-    background-color: #141414;
-  }
-a {
-    font-weight: bold;
-    color: #2c3e50;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a.router-link-exact-active {
-    color: #42b983;
-}
-
 </style>
