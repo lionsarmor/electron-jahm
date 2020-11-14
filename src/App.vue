@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import './default.js'
+import './js/default.js'
 
 export default {
     name: 'App',
