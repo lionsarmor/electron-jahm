@@ -1,7 +1,8 @@
 <template>
 <div>
     <div class="dragbar titlebar overflow">
-        <span class="dragbar-button"><button id="close" class="menu-button" @click="close"><img id="close-btn" src="./assets/img/cancel.png"></button>
+        <span class="dragbar-button">
+            <button id="close" class="focus:outline-none menu-button" @click="close"><img id="close-btn" src="./assets/img/cancel.png"></button>
         </span>
         <router-link to="/about">About</router-link>
     </div>

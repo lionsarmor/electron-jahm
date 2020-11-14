@@ -32,7 +32,10 @@
   .menu-button {
     margin-top: 4px;
     width: 70%;
-    color:  #4a4a4a;
     cursor: pointer;
     -webkit-app-region: no-drag;
+  }
+
+  .menu-button:hover {
+    border: 1px solid #ffa800;
   }
