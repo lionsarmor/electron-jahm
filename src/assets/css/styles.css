@@ -3,3 +3,36 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.dragbar {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+  }
+
+  .dragbar-button {
+    -webkit-app-region: no-drag;
+  }
+
+  .titlebar {
+    width: 400px;
+    height: 40px;
+    margin: 0 0 16px;
+    padding: 8.6px 12px 6.5px 365px;
+    background-color: #141414;
+  }
+
+  .background {
+    background-color: #181818;
+  }
+  
+  .overflow {
+      overflow: hidden;
+  }
+
+  .menu-button {
+    margin-top: 4px;
+    width: 70%;
+    color:  #4a4a4a;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+  }

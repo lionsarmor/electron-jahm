@@ -1,30 +1,27 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+<div>
+    <div class="dragbar titlebar overflow">
+        <span class="dragbar-button"><button id="close" class="menu-button" @click="close"><img id="close-btn" src="./assets/img/cancel.png"></button>
+        </span>
+        <router-link to="/about">About</router-link>
+    </div>
+    <router-view />
+</div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import './default.js'
 
-#nav {
-  padding: 30px;
-}
+export default {
+    name: 'App',
+    components: {
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+    },
+    data() {
+        return {}
+    },
+    methods: {
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+    },
 }
-</style>
+</script>
