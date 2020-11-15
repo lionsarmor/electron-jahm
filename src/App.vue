@@ -1,10 +1,17 @@
 <template>
-<div>
+<div class="bg overlay">
     <div class="dragbar titlebar overflow">
         <span class="dragbar-button">
-            <button id="close" class="focus:outline-none menu-button" @click="close"><img id="close-btn" src="./assets/img/cancel.png"></button>
+            <button id="close" class="menu-button" @click="close">
+                <img id="close-btn" src="./assets/img/cancel.png">
+            </button>
         </span>
-        <router-link to="/about">About</router-link>
+    </div>
+    <div class="bg-height">
+        <span class="jham-logo">
+            <a>JHAM</a>
+            <navbar class="nav-button" />
+        </span>
     </div>
     <router-view />
 </div>
@@ -12,11 +19,12 @@
 
 <script>
 import './js/default.js'
+import navbar from "./components/navbar.vue";
 
 export default {
     name: 'App',
     components: {
-
+        navbar
     },
     data() {
         return {}
