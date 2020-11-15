@@ -4,6 +4,10 @@
 
 @tailwind utilities;
 
+.main-text {
+  color: #ffffff;
+}
+
 .dragbar {
     -webkit-user-select: none;
     -webkit-app-region: drag;
@@ -71,4 +75,16 @@
 }
 .test {
   margin-top: 20vh;
+}
+
+.Quick-Search {
+  text-align: center;
+  font-family: Heebo;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
 }

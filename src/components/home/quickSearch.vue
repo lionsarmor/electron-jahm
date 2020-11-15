@@ -1,7 +1,5 @@
 <template>
-<div>
-
-</div>
+<h1 class="Quick-Search">Quick Search</h1>
 </template>
 
 <script>
