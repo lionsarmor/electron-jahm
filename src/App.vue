@@ -7,7 +7,7 @@
             </button>
         </span>
     </div>
-    <div class="bg-height">
+    <div>
         <span class="jham-logo">
             <a>JHAM</a>
             <navbar class="nav-button" />
