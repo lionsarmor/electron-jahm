@@ -1,6 +1,6 @@
 <template>
 <div class="main-text flex flex-wrap overflow-hidden">
-    <div class="my-8 px-8 w-full overflow-hidden">
+    <div class="px-8 w-full overflow-hidden">
         <quick-search />
     </div>
     <div class="my-8 px-8 w-full overflow-hidden">

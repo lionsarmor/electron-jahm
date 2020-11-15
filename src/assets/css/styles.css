@@ -4,6 +4,24 @@
 
 @tailwind utilities;
 
+@font-face {
+  font-family: "Heebo";
+  src: local("Heebo-Regular"),
+   url(../fonts/static/Heebo-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun-Regular"),
+   url(../fonts/Sarabun-Regular.ttf) format("truetype");
+}
+
+/*@font-face {
+  font-family: "Rubik";
+  src: local("Rubik-Regular"),
+   url(../fonts/static/Rubik-Regular.ttf) format("truetype");
+}*/
+
 .main-text {
   color: #ffffff;
 }
@@ -80,11 +98,42 @@
 .Quick-Search {
   text-align: center;
   font-family: Heebo;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 23px;
+  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: normal;
+  letter-spacing: 1px;
   color: #ffffff;
+  margin-bottom: 1vh;
 }
+
+input:focus {
+  outline: none;
+}
+.search-bar {
+  height: 36px;
+  border-radius: 6px;
+  border: solid 1px #ffa800;
+  background-color: #181818;
+}
+
+.search-icon {
+  width: 2.2vh;
+  position: absolute;
+  margin-left: -44.6vh;
+  margin-top: -2vh;
+
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+

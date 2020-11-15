@@ -1,4 +1,7 @@
 module.exports = {
+  corePlugins: {
+     outline: false,
+  },
   theme: {
     colors: {
       jhamNav: '#181818'
