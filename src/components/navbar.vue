@@ -1,5 +1,5 @@
 <template>
-	<nav>
+	<nav class="z-10">
 		<div>
 			<button class="mr-2" aria-label="Open Menu" @click="drawer">
 				<svg

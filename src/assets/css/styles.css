@@ -231,7 +231,7 @@ input[type=text] {
 .home-button-started {
   width: 128px;
   height: 36px;
-  margin: 15px 83px 0;
+  margin: 16px 83px 0;
   border-radius: 6px;
   outline: none;
   border: none;
@@ -249,8 +249,10 @@ input[type=text] {
 }
 
 .arrow{
+  position: fixed;
   margin-top: -2.5vh;
   margin-left:13vh;
+  z-index: 1;
 }
 
 button:focus {
