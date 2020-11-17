@@ -242,12 +242,16 @@ input[type=text] {
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.24px;
-  text-align: center;
+  text-align: left;
   color: #000000;
   background-color: #ffa800;
   white-space: nowrap;
 }
 
+.arrow{
+  margin-top: -2.5vh;
+  margin-left:13vh;
+}
 
 button:focus {
   outline:none;
@@ -257,4 +261,88 @@ button:focus {
 
 input:focus {
   outline:rgb(180, 25, 25);
+}
+
+.navigation-title {
+  margin-top: 4.5vh;
+  width: 87px;
+  height: 16px;
+  font-family: Sarabun;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-align: center;
+  color: #9b814e;
+}
+
+.nav-text-monitor {
+  margin-top: 2vh;
+  padding-left: 5vh;
+  font-family: Sarabun;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  white-space: nowrap  !important;
+}
+
+.nav-text-ticket {
+  margin-top: 3vh;
+  padding-left: 5vh;
+  font-family: Sarabun;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+
+.nav-text-settings {
+  margin-top: 3vh;
+  padding-left: 5vh;
+  font-family: Sarabun;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+
+.nav-position {
+margin-top: 9vh;
+padding-left:15px;
+}
+
+.inline {
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.monitor {
+position: absolute;
+margin-left: -5vh;
+padding-top: 0.3vh;
+}
+
+.ticket{
+  position: absolute;
+  margin-left: -5vh;
+  padding-top: 0.3vh;
+}
+
+.settings {
+  position: absolute;
+  margin-left: -5vh;
+  padding-top: 0.3vh;
 }

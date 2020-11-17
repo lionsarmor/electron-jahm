@@ -7,7 +7,8 @@
         <p class="home-text home-text-margin">To create the ticket, we need to collect some information.</p>
         <span>
             <button class="home-button-started bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                Get started →
+                Get Started
+                <img class="arrow" src="../../assets/img/arrow.svg">
             </button>
         </span>
     </div>
