@@ -1,0 +1,20 @@
+What information are we gathering? 
+
+What parts of the computer will iut need to access? 
+
+administroator rights? 
+
+Gather the information into json file to be sent to IT Team. 
+
+remote log ins.
+
+
+
+
+
+
+
+
+
+
+

@@ -41,7 +41,7 @@
 		>
 			<div class="ml-1 flex flex-wrap overflow-hidden sm:-mx-2">
 				<div>
-					<button class="mr-2" aria-label="Open Menu" @click="drawer">
+					<button class="mr-2 z-30" aria-label="Open Menu" @click="drawer">
 						<svg
 							fill="none"
 							stroke="currentColor"
@@ -57,7 +57,7 @@
 					<div>
 						<p class="navigation-title">NAVIGATION</p>
 					</div>
-					<Button class="nav-text-monitor"
+					<Button class="z-30 nav-text-monitor"
 						><img class="monitor" src="../assets/img/monitor.svg" />Your Home
 						Search</Button
 					>
